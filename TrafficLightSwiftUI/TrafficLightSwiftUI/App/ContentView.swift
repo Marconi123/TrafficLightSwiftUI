@@ -27,11 +27,11 @@ struct ContentView: View {
     private func changeColors() {
         switch trafficLightColors {
         case .red: trafficLightColors = .yellowRed
-            buttonTitle = "Next"
+            buttonTitle = "NEXT"
         case .yellowRed: trafficLightColors = .green
         case .green: trafficLightColors = .yellow
         case .yellow: trafficLightColors = .red
-            buttonTitle = "Start"
+            buttonTitle = "START"
         }
     }
     
@@ -41,17 +41,17 @@ struct ContentView: View {
         ZStack {
             Color(.black)
             VStack {
-
                 CircleView(color: .red,
                            opacity: (trafficLightColors == .red || trafficLightColors == .yellowRed) ? 1 : 0.2)
                 CircleView(color: .yellow,
                            opacity: (trafficLightColors == .yellowRed || trafficLightColors == .yellow) ? 1 : 0.2)
                 CircleView(color: .green,
                            opacity: (trafficLightColors == .green) ? 1 : 0.2)
-                
-                ButtonView(title: buttonTitle, width: 300, height: 80) {
-                    buttonTitle = "NEXT"
-                    changeColors()
+                VStack {
+                    ButtonView(title: buttonTitle, width: 300, height: 80) {
+                        buttonTitle = "NEXT"
+                        changeColors()
+                    }
                 }
             }
         }

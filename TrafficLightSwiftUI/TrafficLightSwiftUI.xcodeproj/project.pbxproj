@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		867F723628EE2E130079BFA5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F723528EE2E130079BFA5 /* CircleView.swift */; };
-		867F723828EE30DD0079BFA5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F723728EE30DD0079BFA5 /* BoardView.swift */; };
 		867F723A28EE32380079BFA5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F723928EE32380079BFA5 /* ButtonView.swift */; };
 		86EBD21C28ECC96600BB569E /* TrafficLightSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD21B28ECC96600BB569E /* TrafficLightSwiftUIApp.swift */; };
 		86EBD21E28ECC96600BB569E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD21D28ECC96600BB569E /* ContentView.swift */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		867F723528EE2E130079BFA5 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		867F723728EE30DD0079BFA5 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		867F723928EE32380079BFA5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		86EBD21828ECC96600BB569E /* TrafficLightSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EBD21B28ECC96600BB569E /* TrafficLightSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				867F723528EE2E130079BFA5 /* CircleView.swift */,
-				867F723728EE30DD0079BFA5 /* BoardView.swift */,
 				867F723928EE32380079BFA5 /* ButtonView.swift */,
 			);
 			path = Models;
@@ -163,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				867F723628EE2E130079BFA5 /* CircleView.swift in Sources */,
-				867F723828EE30DD0079BFA5 /* BoardView.swift in Sources */,
 				867F723A28EE32380079BFA5 /* ButtonView.swift in Sources */,
 				86EBD21E28ECC96600BB569E /* ContentView.swift in Sources */,
 				86EBD21C28ECC96600BB569E /* TrafficLightSwiftUIApp.swift in Sources */,
